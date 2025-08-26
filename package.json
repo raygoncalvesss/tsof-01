@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Repositório para aula inicial de Testes de Software",
   "main": "server.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "set NODE_OPTIONS=--experimental-vm-modules && jest"
   },
   "keywords": [
     "NodeJS",
@@ -14,5 +14,8 @@
     "Jest"
   ],
   "author": "Rayssa",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^30.0.5"
+  }
 }
